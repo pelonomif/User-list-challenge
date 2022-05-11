@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+   
+    <body>
+        
+        
+        <script>
+
+        const userList = [
+            "Reagan Leblanc",
+            "Amira Archer",
+            "Harmony Townsend",
+            "Thabo Mofokeng",
+            "Keith Tshabalala",
+            "Johnny Depp",
+            "Beyonce Knowles",
+            "Kelly Rowland",
+            "Kendrick Lamar", 
+            "Morgan Freeman"];
+            console.log(userList);
+
+                  
+                const choice = prompt ("Menu \n" + "What would you like to do? \n \n" +
+                "1. Add three users \n" +
+                "2. Remove user \n" +
+                "3. Display all users \n"+
+                "4. Sort users");
+
+           console.log(typeof choice)
+
+           function getInputFromTextBox() {
+            var input = document. getElementById("userInput"). value;
+            alert(input);
+            }
+
+           switch (choice) {
+               case 1: addUsers();
+               break;
+               case 2: removeUser();
+               break;
+               case 3: displayUser();
+               break;
+               case 4: sortUser();
+               break;
+           }
+
+           function addUsers(){
+               let user1 = prompt("Enter user name")
+               database.push(userOne);
+
+               let userTwo = prompt("Enter user name")
+               database.push(userTwo);
+
+               let userThree = prompt("Enter user name")
+               database.push(userThree);
+
+               console.log (database);
+
+           }
+
+           function removeUsers(){
+               let indexString = prompt("Enter user name")
+               let index = parseInt (indexString)
+
+               database.splice
+
+
+           }
+            function displayUsers(){
+
+
+           }
+           function sortUser(){
+
+
+           }
+
+           
+        
+       
+     
+
+
+
+
+
+
+
+
+
+
+        </script>
+        
+    </body>
+</html>
